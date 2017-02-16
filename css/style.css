@@ -1,0 +1,40 @@
+body {
+  background: #212129;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+::selection {
+  background: #212129;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: #0db46e 2px solid;
+}
+
+/*STYLES*/
+canvas {
+  display: block;
+  left: 50%;
+  margin: -125px 0 0 -125px;
+  position: absolute;
+  top: 50%;
+}
